@@ -17,6 +17,7 @@ async function login(user) {
       message: 'username and password are required'
     })
   }
+  
 
   const dynamoUser = await getUser(username.toLowerCase().trim());
   if (!dynamoUser || !dynamoUser.username) {

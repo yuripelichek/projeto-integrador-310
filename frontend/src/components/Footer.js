@@ -7,34 +7,16 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Gostou da ideia? Então torne-se um parceiro!!
-        </p>
-        <p className='footer-subscription-text'>
-          Ajude a mudar vidas!
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Digite seu E-mail'
-            />
-            <Button buttonStyle='btn--outline'>Enviar</Button>
-          </form>
-        </div>
-      </section>
+      
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              SUCATS
+              Condomínio Rossi
               <i class='fab fa-envira' />
             </Link>
           </div>
-          <small class='website-rights'>SUCATS © 2022</small>
+
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

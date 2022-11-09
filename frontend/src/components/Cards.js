@@ -5,7 +5,7 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Veja alguns dos locais que atuamos!</h1>
+      {/* <h1>Veja alguns dos locais que atuamos!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -43,7 +43,7 @@ function Cards() {
             />
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

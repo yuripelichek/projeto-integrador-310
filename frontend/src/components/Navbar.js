@@ -30,7 +30,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            SUCATS
+            Condomínio Rossi
             <i class='fab fa-envira'/>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -39,7 +39,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
+                Início
               </Link>
             </li>
             <li className='nav-item'>
@@ -48,7 +48,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Serviços
+                Informações
               </Link>
             </li>
             <li className='nav-item'>
@@ -57,7 +57,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Reciclagem
+                
               </Link>
             </li>
 
@@ -83,8 +83,8 @@ function Navbar() {
 
 
           </ul>
-          {button && <Button buttonStyle='btn--outline'>CADASTRO</Button>}
-          {button && <Button2 buttonStyle='btn--outline'>LOGIN</Button2>}
+          {button && <Button buttonStyle='btn--outline'>Envie sua sugestão</Button>}
+          {/* {button && <Button2 buttonStyle='btn--outline'>LOGIN</Button2>} */}
         </div>
       </nav>
     </>
